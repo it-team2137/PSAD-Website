@@ -27,6 +27,13 @@ li:nth-child(1){
 li:hover{
     background-color: black;
     color: white;
+    
+}
+a:visited{
+    color:black;
+}
+a:link{
+    color:black;
 }
 section{
     position: relative;
