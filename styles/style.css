@@ -11,7 +11,7 @@ ul{
 
 
 }
-li{
+.m-item{
     float: left;
     padding: 4vh;
     border-left: 2px solid black;
@@ -24,7 +24,7 @@ li{
 #no-border{
     border-left: none;
 }
-li:hover{
+.m-item:hover{
     background-color: black;
     color: white;
     transition: color 0.6s;
@@ -110,7 +110,6 @@ section{
         animation-timing-function: ease-in;
     }
     20%{
-        top: ;
         transform: translate(35vw,0);
         width: 25vw;
         animation-timing-function: ease-in;

@@ -1,0 +1,3 @@
+-Buttony do tlumaczenia wbudowane w navbara
+-Buttony tłumaczą navbara
+-
