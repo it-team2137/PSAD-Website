@@ -19,7 +19,7 @@
     </style>
 </head>
 <body>
-    <?php include_once 'navbar.php' ?>
+<?php include_once 'navbar.php' ?>
 <button onclick="i18n.changeLanguage('gr');">GREEK</button>
 <button onclick="i18n.changeLanguage('en');">ENGLISH</button>
 
@@ -37,6 +37,7 @@ There are classes for elementary, high school students and all selected Lyceum s
         </div>
     </div>
 </section>
+
 <script src="./dist/dom-i18n.js"></script>
 <script>
   var i18n = window.domI18n({
@@ -45,7 +46,6 @@ There are classes for elementary, high school students and all selected Lyceum s
   languages: ['en', 'gr'],
   defaultLanguage: 'en',
 });
-
 </script>
 </body>
 </html>
