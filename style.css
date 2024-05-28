@@ -1,0 +1,138 @@
+nav{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+
+}
+#navbar{
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+.m-item{
+    float: left;
+    padding: 4vh;
+    border-left: 2px solid black;
+    background-color: white;
+    display:block;
+    font-family: tahoma;
+    font-size: 1.3rem;
+    transition: background-color 0.6s;
+}
+#no-border{
+    border-left: none;
+}
+.m-item:hover{
+    background-color: black;
+    color: white;
+    transition: color 0.6s;
+    transition: background-color 0.6s;
+}
+a:visited{
+    color:black;
+}
+a:link{
+    color:black;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    top: 10vh;
+    display: flex;
+    align-items: center;
+}
+.galeria{
+    width: 25vw;
+    aspect-ratio: 1;
+
+    position: absolute;
+    float: left;
+    margin: 0;
+    background-color: blue;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.galeria:nth-child(1){
+    animation-name: galeria1;
+    left: -30vw;
+}
+.galeria:nth-child(2){
+    animation-name: galeria2;
+    left: 5vw;
+}
+.galeria:nth-child(3){
+    animation-name: galeria3;
+    left: 35vw;
+    width: 30vw;
+}
+.galeria:nth-child(4){
+    animation-name: galeria1;
+    left: 70vw;
+}
+.galeria:nth-child(5){
+    animation-name: galeria4;
+    left: 105vw;
+}
+@keyframes galeria1{
+    0%{
+        transform: translate(0,0);
+        animation-timing-function: ease-in;
+    }
+    20%{
+        transform: translate(35vw,0);
+        animation-timing-function: ease-in;
+    }
+    100%{
+        transform: translate(35vw,0);
+    }
+}
+@keyframes galeria2{
+    0%{
+        transform: translate(0,0);
+        animation-timing-function: ease-in;
+    }
+    20%{
+        transform: translate(30vw,0);
+        width: 30vw;
+        animation-timing-function: ease-in;
+    }
+    100%{
+        transform: translate(30vw,0);
+        width: 30vw;
+    }
+}
+@keyframes galeria3{
+    0%{
+        transform: translate(0,0);
+        animation-timing-function: ease-in;
+    }
+    20%{
+        transform: translate(35vw,0);
+        width: 25vw;
+        animation-timing-function: ease-in;
+    }
+    100%{
+        transform: translate(35vw,0);
+        width: 25vw;
+    }
+}
+@keyframes galeria4{
+    0%{
+        opacity: 0;
+        transform: translate(0,0);
+        animation-timing-function: ease-in;
+    }
+    20%{
+        opacity: 0;
+        transform: translate(-135vw,0);
+        animation-timing-function: ease-in;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(-135vw,0);
+    }
+}
+body {
+    background-color: green;
+}
