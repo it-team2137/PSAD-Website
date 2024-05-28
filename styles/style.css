@@ -1,3 +1,7 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 section{
     position: relative;
     width: 100%;

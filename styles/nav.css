@@ -35,8 +35,34 @@ a:link{
     color:black;
 }
 #gr {
-    background-image: ;
+    background-image:url("/./images/buttons/greek.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    display: block;
+    left:97.5%;
+    margin-top:9.4vw;
+    height:2.5vw;
+    aspect-ratio: 1;
+    z-index: 4;
+    opacity:0.5;
 }
 #en {
-    background-image: ;
+    background-image:url("/./images/buttons/british.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    display: block;
+    left:97.5%;
+    margin-top: 6.5vw;
+    height:2.5vw;
+    aspect-ratio: 1;
+    z-index: 4;
+    opacity:0.5;
+}
+#gr:hover {
+    opacity:1;
+}
+#en:hover {
+    opacity:1;
 }
