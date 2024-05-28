@@ -1,0 +1,42 @@
+nav{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+
+}
+#navbar{
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+.m-item{
+    float: left;
+    padding: 4vh;
+    border-left: 2px solid black;
+    background-color: white;
+    display:block;
+    font-family: tahoma;
+    font-size: 1.3rem;
+    transition: background-color 0.6s;
+}
+#no-border{
+    border-left: none;
+}
+.m-item:hover{
+    background-color: black;
+    color: white;
+    transition: color 0.6s;
+    transition: background-color 0.6s;
+}
+a:visited{
+    color:black;
+}
+a:link{
+    color:black;
+}
+#gr {
+    background-image: ;
+}
+#en {
+    background-image: ;
+}

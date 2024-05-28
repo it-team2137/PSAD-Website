@@ -10,8 +10,6 @@
 <body>
 <?php include_once 'navbar.php' ?>
 <?php include_once 'navbar.php' ?>
-<button onclick="i18n.changeLanguage('gr');">GREEK</button>
-<button onclick="i18n.changeLanguage('en');">ENGLISH</button>
 <section>
   <div data-translatable class="text">
     Art Courses for all ages and levels. Painting with various techniques, drawing with pencil, charcoal and colour, engraving, photography, graffiti, three-dimensional constructions (sculpture, installations, clay, mixed media, cementography) …
