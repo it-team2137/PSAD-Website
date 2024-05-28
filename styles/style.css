@@ -4,12 +4,10 @@ nav{
     height: 50px;
 
 }
-ul{
+#navbar{
     list-style: none;
     display: inline-block;
     text-align: left;
-
-
 }
 .m-item{
     float: left;
