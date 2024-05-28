@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet"  id="pagestyle" href="styles/style.css">
     <link rel="stylesheet" href="styles/nav.css">
     <style>
         section{
@@ -19,10 +19,56 @@
         }
     </style>
 </head>
-<body>
+<body onload="langChange(); darkm()">
 <?php include_once 'navbar.php' ?>
-<button onclick="i18n.changeLanguage('gr');">GREEK</button>
-<button onclick="i18n.changeLanguage('en');">ENGLISH</button>
+<button onclick="setCookie('language', 'gr'); i18n.changeLanguage('gr');">GREEK</button>
+<button onclick="setCookie('language', 'en'); i18n.changeLanguage('en')">ENGLISH</button>
+<button onclick="showCookie()">Show cookie.</button>
+<button onclick="setCookie('mode', 'light'); darkm()">Dark/Light mode</button>
+
+<script>
+
+function setCookie(cname, cvalue){
+    document.cookie = cname + "=" + cvalue + "; " + "expires=Thu, 01 Jan 2030 00:00:00 UTC";
+}
+function showCookie(){
+    document.write(document.cookie);
+}
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i <ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+function langChange(){
+    let lang = getCookie("language");
+    if (lang == "gr") {
+        i18n.changeLanguage('gr')
+    } else {
+        i18n.changeLanguage('en')
+    }
+}
+function darkm(){
+    let mode = getCookie("mode");
+    if (mode == "light") {
+        swapStyleSheet('style.css')
+    }   else {
+        swapStyleSheet('style.css')
+    }
+}
+function swapStyleSheet(sheet) {
+    document.getElementById("pagestyle").setAttribute("href", sheet);  
+}
+</script>
 
 <section>
     <div id="middle">
