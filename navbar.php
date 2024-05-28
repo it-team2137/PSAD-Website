@@ -6,6 +6,8 @@
         <a href="erasmus.php" class="m-link"><li class="m-item" data-translatable>ERASMUS</li></a>
         <a href="events.php" class="m-link"><li class="m-item" data-translatable>EVENTS // ΕΚΔΗΛΩΣΕΙΣ</li></a>
         <a href="archive.php" class="m-link"><li class="m-item" data-translatable>ARCHIVE // ΑΡΧΕΙΟ</li></a>
-        <a href="contact-us" class="m-link"><li class="m-item" data-translatable>CONTACT US // ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ</li></a>
+        <a href="contact-us.php" class="m-link"><li class="m-item" data-translatable>CONTACT US // ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ</li></a>
     </ul> 
+    <button onclick="i18n.changeLanguage('gr');" id="gr">GREEK</button>
+    <button onclick="i18n.changeLanguage('en');" id="en">ENGLISH</button>
 </nav>

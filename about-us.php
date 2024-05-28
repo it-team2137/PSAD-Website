@@ -21,9 +21,6 @@
 </head>
 <body>
 <?php include_once 'navbar.php' ?>
-<button onclick="i18n.changeLanguage('gr');">GREEK</button>
-<button onclick="i18n.changeLanguage('en');">ENGLISH</button>
-
 <section>
     <div id="middle">
         <div data-translatable class="text">
