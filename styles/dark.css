@@ -2,12 +2,16 @@ nav{
     text-align: center;
     width: 100%;
     height: 50px;
-
+    z-index: 5;
 }
 #navbar{
     list-style: none;
     display: inline-block;
     text-align: left;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vh;
 }
 .m-item{
     float: left;
