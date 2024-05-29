@@ -2,7 +2,7 @@ nav{
     text-align: center;
     width: 100%;
     height: 50px;
-
+    z-index: 5;
 }
 #navbar{
     list-style: none;
