@@ -8,6 +8,9 @@ nav{
     list-style: none;
     display: inline-block;
     text-align: left;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
 }
 .m-item{
     float: left;
