@@ -1,5 +1,5 @@
-<a onclick="i18n.changeLanguage('gr');" id="gr"></a>
-<a onclick="i18n.changeLanguage('en');" id="en"></a>
+<a onclick="setCookie('language', 'gr'); i18n.changeLanguage('gr');" id="gr"></a>
+<a onclick="setCookie('language', 'en'); i18n.changeLanguage('en');" id="en"></a>
 <nav>
     <ul id="navbar">
         <a href="index.html" class="m-link"><li id="no-border" class="m-item" data-translatable>HOME // ΑΡΧΙΚΉ</li></a>

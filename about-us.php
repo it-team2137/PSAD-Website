@@ -21,9 +21,9 @@
 </head>
 <body onload="langChange(); darkm()">
 <?php include_once 'navbar.php' ?>
-<button onclick="setCookie('language', 'gr'); i18n.changeLanguage('gr');">GREEK</button>
-<button onclick="setCookie('language', 'en'); i18n.changeLanguage('en')">ENGLISH</button>
-<button onclick="showCookie()">Show cookie.</button>
+<!-- <button onclick="setCookie('language', 'gr'); i18n.changeLanguage('gr');">GREEK</button>
+<button onclick="setCookie('language', 'en'); i18n.changeLanguage('en')">ENGLISH</button> -->
+<!-- <button onclick="showCookie()">Show cookie.</button> -->
 <button onclick="mode()">Dark/Light mode</button>
 
 <section>
