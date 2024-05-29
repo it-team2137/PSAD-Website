@@ -9,87 +9,62 @@ body {
     float: left;
     margin: 0;
     background-color: black;
-    animation-duration: 4s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
+    animation-name: galeria;
 }
-.galeria:nth-child(1){
-    animation-name: galeria1;
-    left: -30vw;
-}
-.galeria:nth-child(2){
-    animation-name: galeria2;
-    left: 5vw;
-}
-.galeria:nth-child(3){
-    animation-name: galeria3;
-    left: 35vw;
-    width: 30vw;
-}
-.galeria:nth-child(4){
-    animation-name: galeria1;
-    left: 70vw;
-}
-.galeria:nth-child(5){
-    animation-name: galeria4;
-    left: 105vw;
-}
-@keyframes galeria1{
+
+@keyframes galeria{
     0%{
         transform: translate(0,0);
         animation-timing-function: ease-in;
+        width: 25vw;
     }
-    20%{
+    4%{
         transform: translate(35vw,0);
         animation-timing-function: ease-in;
-    }
-    100%{
-        transform: translate(35vw,0);
-    }
-}
-@keyframes galeria2{
-    0%{
-        transform: translate(0,0);
-        animation-timing-function: ease-in;
-    }
-    20%{
-        transform: translate(30vw,0);
-        width: 30vw;
-        animation-timing-function: ease-in;
-    }
-    100%{
-        transform: translate(30vw,0);
         width: 30vw;
     }
-}
-@keyframes galeria3{
-    0%{
-        transform: translate(0,0);
-        animation-timing-function: ease-in;
-    }
     20%{
         transform: translate(35vw,0);
+        animation-timing-function: ease-in;
+        width: 30vw;
+    }
+    24%{
+        transform: translate(65vw,0);
         width: 25vw;
         animation-timing-function: ease-in;
     }
-    100%{
-        transform: translate(35vw,0);
-        width: 25vw;
+    40%{
+        transform: translate(65vw,0);
+        animation-timing-function: ease-in;
     }
-}
-@keyframes galeria4{
-    0%{
+    44%{
+        transform: translate(100vw,0);
+        animation-timing-function: ease-in;
+    }
+    60%{
+        transform: translate(100vw,0);
+        animation-timing-function: ease-in;
+    }
+    64%{
+        transform: translate(-125vw,0);
+        animation-timing-function: ease-in;
         opacity: 0;
+    }
+    80%{
+        transform: translate(-125vw,0);
+        opacity: 0;
+    }
+    80%{
+        animation-timing-function: ease-in;
+    }
+    84%{
         transform: translate(0,0);
         animation-timing-function: ease-in;
     }
-    20%{
-        opacity: 0;
-        transform: translate(-135vw,0);
-        animation-timing-function: ease-in;
-    }
     100%{
-        opacity: 0;
-        transform: translate(-135vw,0);
+        transform: translate(0,0);
     }
 }
 .spacer{
