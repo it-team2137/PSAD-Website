@@ -100,3 +100,11 @@ section{
         transform: translate(-135vw,0);
     }
 }
+.text{
+    font-size: 14pt;
+    padding: 1vw;
+    border-style:groove;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    text-justify:auto;
+}
