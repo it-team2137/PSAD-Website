@@ -9,18 +9,11 @@
 <body>
 <?php include_once 'navbar.php' ?>
 <section>
-    <div class="galeria"><img src="images\gallery\gallery1.jpg" alt="" width="100%"></div>
-    <div class="galeria"><img src="images\gallery\gallery2.jpg" alt="" width="100%"></div>
-    <div class="galeria"><img src="images\gallery\gallery3.jpg" alt="" width="100%"></div>
-    <div class="galeria"><img src="images\gallery\gallery4.jpg" alt="" width="100%"></div>
-    <div class="galeria"><img src="images\gallery\gallery5.jpg" alt="" width="100%"></div>
-</section>
-<section>
-    <div class="galeria"></div>
-    <div class="galeria"></div>
-    <div class="galeria"></div>
-    <div class="galeria"></div>
-    <div class="galeria"></div>
+    <div class="galeria"><img src="images\gallery\gallery1.jpg" alt="" width="100%" height="100%"></div>
+    <div class="galeria"><img src="images\gallery\gallery2.jpg" alt="" width="100%" height="100%"></div>
+    <div class="galeria"><img src="images\gallery\gallery3.jpg" alt="" width="100%" height="100%"></div>
+    <div class="galeria"><img src="images\gallery\gallery6.jpg" alt="" width="100%" height="100%"></div>
+    <div class="galeria"><img src="images\gallery\gallery5.jpg" alt="" width="100%" height="100%"></div>
 </section>
 <?php include_once 'footer.php' ?>
 </script>
