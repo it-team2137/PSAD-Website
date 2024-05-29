@@ -93,9 +93,11 @@ body {
     }
 }
 .spacer{
+    
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: center;
 }
 .text{
     font-size: 14pt;
