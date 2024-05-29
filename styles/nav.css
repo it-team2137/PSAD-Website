@@ -69,3 +69,19 @@ a:link{
 #en:hover {
     opacity:1;
 }
+#darkmode:hover {
+    opacity:1;
+}
+#darkmode {
+    background-image:url("/./images/buttons/darkmode.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    display: block;
+    left:97.5%;
+    margin-top: 3.0vw;
+    height:2.5vw;
+    aspect-ratio: 1;
+    z-index: 4;
+    opacity:0.5;
+}
