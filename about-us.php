@@ -12,10 +12,6 @@
         #middle{
             width: 50%;
         }
-        .text{
-            font-size: 24pt;
-            
-        }
     </style>
 </head>
 <body onload="langChange(); mode()">
@@ -26,7 +22,7 @@
 <!-- <button onclick="mode()">Dark/Light mode</button> -->
 
 <section>
-    <div id="middle">
+    <div class="text-box" id="middle">
         <div data-translatable class="text">
             Our workshop is located just outside the centre of Paphos in Chloraka, in a pleasant and well-designed environment for artistic creation and learning.
 There are classes for elementary, high school students and all selected Lyceum subjects. Adults are always welcome for individual or group classes. // Το εργαστήρι μας βρίσκεται μόλις έξω από το κέντρο της Πάφου στη Χλώρακα, σε ένα ευχάριστο και κατάλληλα διαμορφωμένο περιβάλλον για καλλιτεχνική δημιουργία και μάθηση.
