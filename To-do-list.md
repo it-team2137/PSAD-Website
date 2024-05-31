@@ -1,3 +1,0 @@
--Buttony do tlumaczenia wbudowane w navbara
--Buttony tłumaczą navbara
--Cookies, zapisywanie wybranego jezyka https://danielpuiatti.com/javascript-cookies-a-beginners-guide-to-storing-user-preferences-and-data-on-your-website/
