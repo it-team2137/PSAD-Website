@@ -22,10 +22,10 @@
 <?php include_once 'navbar.php' ?>
 <!-- <button onclick="setCookie('language', 'gr'); i18n.changeLanguage('gr');">GREEK</button>
 <button onclick="setCookie('language', 'en'); i18n.changeLanguage('en')">ENGLISH</button> -->
-<button onclick="showCookie()">Show cookie.</button>
+<!-- <button onclick="showCookie()">Show cookie.</button> -->
 <!-- <button onclick="mode()">Dark/Light mode</button> -->
 
-<!-- <section>
+<section>
     <div id="middle">
         <div data-translatable class="text">
             Our workshop is located just outside the centre of Paphos in Chloraka, in a pleasant and well-designed environment for artistic creation and learning.
@@ -38,7 +38,7 @@ There are classes for elementary, high school students and all selected Lyceum s
             // Κέντρο Τεχνών με τμήματα διδασκαλίας τέχνης για παιδιά, εφήβους και ενήλικες. Μαθήματα προοπτικού και ελεύθερου σχεδίου για μαθητές λυκείου. Χώροι στούντιο και εργαστήρια για ανεξάρτητους καλλιτέχνες και για δημιουργία εικαστικών πορτφόλιων.  
         </div>
     </div>
-</section> -->
+</section>
 <?php include_once 'footer.php' ?>
 </body>
 </html>
