@@ -6,9 +6,6 @@
     <title></title>
     <link rel="stylesheet" id="pagestyle" href="styles/style.css">
     <style>
-        section{
-            background-color: white;
-        }
         #middle{
             width: 50%;
         }
