@@ -1,9 +1,10 @@
 <a onclick="setCookie('language', 'gr'); i18n.changeLanguage('gr');" id="gr"></a>
 <a onclick="setCookie('language', 'en'); i18n.changeLanguage('en');" id="en"></a>
-<a onclick="mode()" id="darkmode"></a>
+<a onclick="setCookie('mode', 'dark'); mode()" id="dark-button"></a>
+<a onclick="setCookie('mode', 'light'); mode()" id="light-button"></a>
 <nav>
     <ul id="navbar">
-        <a href="index.html" class="m-link"><li id="no-border" class="m-item" data-translatable>HOME // ΑΡΧΙΚΉ</li></a>
+        <a href="index.php" class="m-link"><li id="no-border" class="m-item" data-translatable>HOME // ΑΡΧΙΚΉ</li></a>
         <a href="about-us.php" class="m-link"><li class="m-item" data-translatable>ABOUT US // ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</li></a>
         <a href="courses-work.php" class="m-link"><li class="m-item" data-translatable>COURSES-WORKSHOPS // ΜΑΘΗΜΑΤΑ-ΕΡΓΑΣΤΗΡΙΑ</li></a>
         <a href="erasmus.php" class="m-link"><li class="m-item" data-translatable>ERASMUS</li></a>

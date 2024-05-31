@@ -6,7 +6,7 @@
     <title></title>
     <link rel="stylesheet" id="pagestyle" href="styles/style.css">
 </head>
-<body>
+<body onload="langChange(); mode()">
 <?php include_once 'navbar.php' ?>
 <section>
     <div class="galeria"><img src="images\gallery\gallery1.jpg" alt="" width="100%" height="100%"></div>

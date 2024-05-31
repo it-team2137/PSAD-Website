@@ -1,3 +1,10 @@
+:root{
+    --first-color:white;
+    --second-color:black;
+}
+body{
+    background-color: var(--first-color);
+}
 nav{
     text-align: center;
     width: 100%;
@@ -16,8 +23,8 @@ nav{
 .m-item{
     float: left;
     padding: 4vh;
-    border-left: 2px solid black;
-    background-color: white;
+    border-left: 2px solid var(--second-color);
+    background-color: var(--first-color);
     display:block;
     font-family: tahoma;
     font-size: 1.3rem;
@@ -27,16 +34,16 @@ nav{
     border-left: none;
 }
 .m-item:hover{
-    background-color: black;
-    color: white;
+    background-color: var(--second-color);
+    color: var(--first-color);
     transition: color 0.6s;
     transition: background-color 0.6s;
 }
 a:visited{
-    color:black;
+    color:var(--second-color);
 }
 a:link{
-    color:black;
+    color:var(--second-color);
 }
 #gr {
     background-image:url("/./images/buttons/greek.svg");
@@ -70,17 +77,17 @@ a:link{
 #en:hover {
     opacity:1;
 }
-#darkmode:hover {
+#dark-button:hover {
     opacity:1;
 }
-#darkmode {
+#dark-button {
     background-image:url("/./images/buttons/darkmode.svg");
     background-repeat: no-repeat;
     background-size: contain;
     position: fixed;
     display: block;
     left:97.5%;
-    margin-top: 3.0vw;
+    margin-top: 3.6vw;
     height:2.5vw;
     aspect-ratio: 1;
     z-index: 4;
@@ -96,7 +103,6 @@ body {
     position: absolute;
     float: left;
     margin: 0;
-    background-color: black;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-name: galeria;
@@ -176,6 +182,7 @@ body {
     text-align: justify;
     text-justify:auto;
     width: 16vw;
+    color: var(--second-color);
 }
 section{
     position: relative;

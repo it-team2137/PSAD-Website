@@ -32,11 +32,9 @@ function langChange(){
 function mode() {
     let mode = getCookie("mode")
     if (mode == "dark") {
-        setCookie('mode', 'light')
         swapStyleSheet('styles/dark.css')
     }
     else {
-        setCookie('mode', 'dark')
         swapStyleSheet('styles/style.css')
     }
 }
