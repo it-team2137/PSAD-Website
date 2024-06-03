@@ -2,7 +2,7 @@
 <a onclick="setCookie('language', 'en'); i18n.changeLanguage('en');" id="en"></a>
 <a onclick="setCookie('mode', 'dark'); mode()" id="dark-button"></a>
 <a onclick="setCookie('mode', 'light'); mode()" id="light-button"></a>
-<nav>
+<nav id="navdiv">
     <ul id="navbar">
         <a href="index.php" class="m-link"><li id="no-border" class="m-item" data-translatable>HOME // ΑΡΧΙΚΉ</li></a>
         <a href="about-us.php" class="m-link"><li class="m-item" data-translatable>ABOUT US // ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</li></a>
@@ -23,10 +23,10 @@ window.addEventListener('scroll', function() {
   const currentScrollPos = window.pageYOffset;
     if (prevScrollPos > currentScrollPos) {
     document.getElementById("navbar").style.opacity = "1";
-    document.getElementById("navbar").style.top = "0px";
+    document.getElementById("navdiv").style.top = "0px";
     } else {
     document.getElementById("navbar").style.opacity = "0";
-    document.getElementById("navbar").style.top = "-200px";
+    document.getElementById("navdiv").style.top = "-200px";
   }
   prevScrollPos = currentScrollPos;
 });

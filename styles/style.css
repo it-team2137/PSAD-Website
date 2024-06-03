@@ -14,7 +14,7 @@ body{
     background-color: var(--first-color);
     transition: background-color 0.6s;
 }
-nav{
+#navdiv{
     margin-top:1.6vh;
     text-align: center;
     width: 100%;
