@@ -19,7 +19,7 @@
     text-align:center;
     align-self:center;
     width:fit-content;
-
+    margin-bottom: 1vh;
 }
 .erasmus > header::first-line {
     font-size: 2rem;
@@ -76,25 +76,34 @@ article > .text {
         </div>
     </article>
 
+    <article>
+        <div class="text">
+            In addition to studio work, participants will also have the opportunity to explore
+            and experience the rich cultural heritage of Paphos through organized cultural trips to archaeological sites,
+            museums, and galleries. These excursions aim to familiarize participants with the cultural and historical significance of the region,
+            enriching their overall experience.
+        </div>
+        <img src="images\erasmus\oranges.jpg">
+    </article>
+    <article>
+        <img src="images\erasmus\city.jpg">
+        <div class="text">
+            To ensure a comfortable and stress-free experience,
+            our team and associates handle all aspects of transportation, accommodation,
+            and amenities throughout the duration of the program. From arranging comfortable lodging to
+            providing support for navigation and daily living, we strive to create a nurturing and supportive environment for all
+            participants.
+        </div>
+    </article>
 
-    <div class="text">
-        In addition to studio work, participants will also have the opportunity to explore
-        and experience the rich cultural heritage of Paphos through organized cultural trips to archaeological sites,
-        museums, and galleries. These excursions aim to familiarize participants with the cultural and historical significance of the region,
-        enriching their overall experience.
-    </div>
-    <div class="text">
-        To ensure a comfortable and stress-free experience,
-        our team and associates handle all aspects of transportation, accommodation,
-        and amenities throughout the duration of the program. From arranging comfortable lodging to
-        providing support for navigation and daily living, we strive to create a nurturing and supportive environment for all
-        participants.
-    </div>
-    <div class="text">
-        Join us at Paphos Studios of Art and Design and embark on a transformative journey filled with artistic inspiration,
-        cultural exploration,     and meaningful connections. Apply now for an unforgettable experience in the heart
-        of Cyprus’s thriving art community!
-    </div>
+    <article>
+        <div class="text">
+            Join us at Paphos Studios of Art and Design and embark on a transformative journey filled with artistic inspiration,
+            cultural exploration, and meaningful connections. Apply now for an unforgettable experience in the heart
+            of Cyprus’s thriving art community!
+        </div>
+        <img src="images\erasmus\building.jpg">
+    </article>
 </div>
 
 <?php include_once 'footer.php' ?>
