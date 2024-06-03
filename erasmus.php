@@ -64,12 +64,15 @@ article > .text {
     <img src="images\erasmus\art-dog.jpg">
     </article>
     
+    <article>
+    <img src=""
     <div class="text">
         Our center operates in various areas of expertise, including fine arts, painting, sculpture,
         illustration, animation, graphic design, IT, photography, videography, mural art, and more.
         Participants in the Erasmus program will have the unique opportunity to collaborate and work alongside some of the city’s best
         professionals and artists, gaining invaluable experience and insight into the local art scene.
     </div>
+    </article>
     <div class="text">
         In addition to studio work, participants will also have the opportunity to explore
         and experience the rich cultural heritage of Paphos through organized cultural trips to archaeological sites,
