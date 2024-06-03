@@ -83,10 +83,10 @@ article > .text {
             museums, and galleries. These excursions aim to familiarize participants with the cultural and historical significance of the region,
             enriching their overall experience.
         </div>
-        <img src="images\erasmus\oranges.jpg">
+        <img src="images\erasmus\city.jpg">
     </article>
     <article>
-        <img src="images\erasmus\city.jpg">
+        <img src="images\erasmus\oranges.jpg">
         <div class="text">
             To ensure a comfortable and stress-free experience,
             our team and associates handle all aspects of transportation, accommodation,
