@@ -6,7 +6,26 @@
     <title></title>
     <link rel="stylesheet" id="pagestyle" href="styles/style.css">
     <style>
+.erasmus {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
 
+}
+.erasmus > header {
+    font-size: 1.4rem;
+    text-align:center;
+    align-self:center;
+    width:fit-content;
+
+}
+.erasmus > header::first-line {
+    font-size: 2rem;
+    font-weight:bold;
+    font-family:Montserrat-Bold;
+}
     </style>
 </head>
 <body onload="langChange(); mode()">

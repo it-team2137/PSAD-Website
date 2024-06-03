@@ -2,6 +2,14 @@
     --first-color:white;
     --second-color:black;
 }
+@font-face {
+    font-family: Montserrat;
+    src:url("/fonts/Montserrat/Montserrat-Regular.ttf")
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src:url("/fonts/Montserrat/Montserrat-Bold.ttf")
+}
 body{
     background-color: var(--first-color);
     transition: background-color 0.6s;
@@ -181,7 +189,7 @@ body {
 .text{
     font-size: 14pt;
     padding: 1vw;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Montserrat,Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     text-justify:auto;
     width: 16vw;
@@ -211,22 +219,4 @@ section:hover{
 body:hover{
     transition: background-color 0.6s;
 }
-.erasmus {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 100%;
-    width: 100%;
 
-}
-.erasmus > header {
-    font-size: 1.4rem;
-    text-align:center;
-    align-self:center;
-    width:fit-content;
-
-}
-.erasmus > header::first-line {
-    font-size: 2rem;
-    font-weight: bold;
-}
