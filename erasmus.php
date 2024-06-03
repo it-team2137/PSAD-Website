@@ -29,18 +29,22 @@
 article {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     width: 100%;
     height: 20%;
-
+    align-items: center;
+    justify-content: space-evenly;
 }
+
 img {
     height:25%;
     width:25%;
     object-fit:contain;
-}
-article > div {
+    align-self:flex-end;
     
+}
+article > .text {
+    text-align: center;
+    width: 30vw;
 }
     </style>
 </head>
