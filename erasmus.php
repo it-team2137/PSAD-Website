@@ -26,6 +26,22 @@
     font-weight:bold;
     font-family:Montserrat-Bold;
 }
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 20%;
+
+}
+img {
+    height:25%;
+    width:25%;
+    object-fit:contain;
+}
+article > div {
+    
+}
     </style>
 </head>
 <body onload="langChange(); mode()">
@@ -35,11 +51,15 @@
         Welcome to the “Erasmus” Section! <br>
         Paphos Studios of Art and Design
     </header>
+    <article>
     <div class="text">
         At Paphos Studios of Art and Design, we offer an exciting opportunity for students, teachers,
         and artists to immerse themselves in our vibrant art community through our Erasmus exchange program.
         By participating in this program, individuals have the chance to engage in our dynamic activities and projects, all while working in our newly renovated studios for placements of up to two months.
     </div>
+    <img src="images\erasmus\art-dog.jpg">
+    </article>
+    
     <div class="text">
         Our center operates in various areas of expertise, including fine arts, painting, sculpture,
         illustration, animation, graphic design, IT, photography, videography, mural art, and more.
