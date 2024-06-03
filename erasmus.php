@@ -51,28 +51,32 @@ article > .text {
 <body onload="langChange(); mode()">
 <?php include_once 'navbar.php' ?>
 <div class="erasmus">
+
     <header class="text">
         Welcome to the “Erasmus” Section! <br>
         Paphos Studios of Art and Design
     </header>
+
     <article>
-    <div class="text">
-        At Paphos Studios of Art and Design, we offer an exciting opportunity for students, teachers,
-        and artists to immerse themselves in our vibrant art community through our Erasmus exchange program.
-        By participating in this program, individuals have the chance to engage in our dynamic activities and projects, all while working in our newly renovated studios for placements of up to two months.
-    </div>
-    <img src="images\erasmus\art-dog.jpg">
+        <div class="text">
+            At Paphos Studios of Art and Design, we offer an exciting opportunity for students, teachers,
+            and artists to immerse themselves in our vibrant art community through our Erasmus exchange program.
+            By participating in this program, individuals have the chance to engage in our dynamic activities and projects, all while working in our newly renovated studios for placements of up to two months.
+        </div>
+        <img src="images\erasmus\art-dog.jpg">
     </article>
     
     <article>
-    <img src=""
-    <div class="text">
-        Our center operates in various areas of expertise, including fine arts, painting, sculpture,
-        illustration, animation, graphic design, IT, photography, videography, mural art, and more.
-        Participants in the Erasmus program will have the unique opportunity to collaborate and work alongside some of the city’s best
-        professionals and artists, gaining invaluable experience and insight into the local art scene.
-    </div>
+        <img src="images\erasmus\orchids.jpg">
+        <div class="text">
+            Our center operates in various areas of expertise, including fine arts, painting, sculpture,
+            illustration, animation, graphic design, IT, photography, videography, mural art, and more.
+            Participants in the Erasmus program will have the unique opportunity to collaborate and work alongside some of the city’s best
+            professionals and artists, gaining invaluable experience and insight into the local art scene.
+        </div>
     </article>
+
+
     <div class="text">
         In addition to studio work, participants will also have the opportunity to explore
         and experience the rich cultural heritage of Paphos through organized cultural trips to archaeological sites,
