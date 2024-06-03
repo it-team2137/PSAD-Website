@@ -11,6 +11,7 @@ nav{
     width: 100%;
     height: 50px;
     z-index: 5;
+    position: fixed;
 }
 #navbar{
     list-style: none;
@@ -20,6 +21,7 @@ nav{
     display: flex;
     justify-content: center;
     padding-bottom: 3vh;
+    transition: opacity 0.3s;
 }
 .m-item{
     float: left;

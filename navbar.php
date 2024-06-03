@@ -14,3 +14,20 @@
     </ul> 
 
 </nav>
+
+<script>
+
+let prevScrollPos = window.pageYOffset;
+window.addEventListener('scroll', function() {
+  const currentScrollPos = window.pageYOffset;
+    if (prevScrollPos > currentScrollPos) {
+    document.getElementById("navbar").style.opacity = "1";
+    document.getElementById("navbar").style.top = "0px";
+    } else {
+    document.getElementById("navbar").style.opacity = "0";
+    document.getElementById("navbar").style.top = "-200px";
+  }
+  prevScrollPos = currentScrollPos;
+});
+
+</script>
