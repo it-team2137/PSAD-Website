@@ -109,7 +109,7 @@ a:link{
 }
 body {
     max-width: 100%;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
   }
 .galeria{
     width: 25vw;
