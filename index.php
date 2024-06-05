@@ -8,7 +8,7 @@
 </head>
 <body onload="langChange(); mode()">
 <?php include_once 'navbar.php' ?>
-<section>
+<section class="navfix">
     <div class="galeria"><img src="images\gallery\gallery1.jpg" alt="" width="100%" height="100%"></div>
     <div class="galeria"><img src="images\gallery\gallery2.jpg" alt="" width="100%" height="100%"></div>
     <div class="galeria"><img src="images\gallery\gallery3.jpg" alt="" width="100%" height="100%"></div>

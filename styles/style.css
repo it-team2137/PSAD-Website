@@ -34,6 +34,12 @@ body{
     margin:0;
     transition: opacity 0.3s;
 }
+.navfix {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+}
 .m-item{
     float: left;
     padding: 4vh;
