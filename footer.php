@@ -1,11 +1,10 @@
 
 <style>
   .footer {
-  background-color: #333;
-  color: white;
+  background-color: lightsalmon;
+  color: black;
   display:flex;
-  justify-content:space-around;
-  align-items:center;
+  justify-content: space-evenly;
   padding:2vh 0;
   position: relative;
   bottom:0;
@@ -13,15 +12,22 @@
   margin-top: 1vh;
   }
   .footer div {
-  width:30%;
+  width:fit-content;
   text-align:center;
   }
-
+  .footer-item {
+  align-items: center;
+  display:flex;
+  }
+  .footer-img{
+    height: 4vh;
+    padding-right: 1vh;
+  }
 </style>
 <div class="footer">
-  <div>Pole tekstowe 1</div>
-  <div>Pole tekstowe 2</div>
-  <div>Pole tekstowe 3</div>
+  <div class="footer-item"> <img class="footer-img" src="\images\icons\fb.svg">     <a href="https://www.facebook.com/PaphosArtStudios/">Facebook</a></div>
+  <div class="footer-item"> <img class="footer-img" src="\images\icons\ig.svg"> <a href="https://www.instagram.com/psad_artschool/">Instagram</a></div>
+  <div class="footer-item">Website by: ITteam2137</div>
 </div>
 
 
