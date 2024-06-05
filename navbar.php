@@ -12,9 +12,7 @@
         <a href="archive.php" class="m-link"><li class="m-item" data-translatable>ARCHIVE // ΑΡΧΕΙΟ</li></a>
         <a href="contact-us.php" class="m-link"><li class="m-item" data-translatable>CONTACT US // ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ</li></a>
     </ul> 
-
 </nav>
-<div id="navblock"></div>
 
 <script>
 

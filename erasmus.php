@@ -6,13 +6,8 @@
     <title></title>
     <link rel="stylesheet" id="pagestyle" href="styles/style.css">
     <style>
-.erasmus {
-    display: flex;
-    flex-direction: column;
+.erasmus{
     justify-content: flex-start;
-    height: 100%;
-    width: 100%;
-
 }
 .erasmus > header {
     font-size: 1.4rem;
@@ -50,7 +45,7 @@ article > .text {
 </head>
 <body onload="langChange(); mode()">
 <?php include_once 'navbar.php' ?>
-<div class="erasmus">
+<div class="erasmus navfix">
 
     <header class="text">
         Welcome to the “Erasmus” Section! <br>
