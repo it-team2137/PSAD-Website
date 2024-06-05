@@ -11,8 +11,8 @@
 <body onload="langChange(); mode()">
 <?php include_once 'navbar.php' ?>
 <section>
-  <div class="spacer">
-    <ul class="spacer">
+  <div>
+    <ul>
     <li data-translatable class="text">
       Art Courses for all ages and levels. Painting with various techniques, drawing with pencil, charcoal and colour, engraving, photography, graffiti, three-dimensional constructions (sculpture, installations, clay, mixed media, cementography) …
       Familiarity with theory and Art history, important artists, and their work. // Μαθήματα Τέχνης για όλες τις ηλικίες και βαθμίδες. Ζωγραφική με διάφορες τεχνικές, σχέδιο με μολύβι, κάρβουνο και χρώμα, χαρακτική, φωτογραφία, graffiti,  τρισδιάστατες κατασκευές (γλυπτική, πηλοπλαστική, ανάμεικτα υλικά, τσιμεντογραφία)…

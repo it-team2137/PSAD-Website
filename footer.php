@@ -1,4 +1,4 @@
-<footer>
+
 <style>
   .footer {
   background-color: #333;
@@ -6,27 +6,24 @@
   display:flex;
   justify-content:space-around;
   align-items:center;
-  padding:10px 0;
+  padding:2vh 0;
   position: relative;
   bottom:0;
   width:100%;
-
+  margin-top: 1vh;
   }
-
   .footer div {
   width:30%;
   text-align:center;
-
-
   }
 
 </style>
 <div class="footer">
-<div>Pole tekstowe 1</div>
-<div>Pole tekstowe 2</div>
-<div>Pole tekstowe 3</div>
+  <div>Pole tekstowe 1</div>
+  <div>Pole tekstowe 2</div>
+  <div>Pole tekstowe 3</div>
 </div>
-</footer>
+
 
 <script>
 
