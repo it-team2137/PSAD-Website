@@ -13,6 +13,7 @@
 body{
     background-color: var(--first-color);
     transition: background-color 0.6s;
+    margin: 0;
 }
 #navdiv{
     margin-top:1.6vh;
