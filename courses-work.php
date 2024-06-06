@@ -9,6 +9,7 @@
     
 </head>
 <body onload="langChange(); mode()">
+<main class="wraper">
 <?php include_once 'navbar.php' ?>
 <section>
   <div>
@@ -49,5 +50,6 @@
 </section>
 
 <?php include_once 'footer.php' ?>
+</main>
 </body>
 </html>

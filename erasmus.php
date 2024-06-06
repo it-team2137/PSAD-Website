@@ -44,8 +44,9 @@ article > .text {
     </style>
 </head>
 <body onload="langChange(); mode()">
+<main class="wraper">
 <?php include_once 'navbar.php' ?>
-<div class="erasmus navfix">
+<div class="erasmus flex">
 
     <header class="text">
         Welcome to the “Erasmus” Section! <br>
@@ -102,5 +103,6 @@ article > .text {
 </div>
 
 <?php include_once 'footer.php' ?>
+</main>
 </body>
 </html>

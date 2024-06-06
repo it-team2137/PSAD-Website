@@ -6,6 +6,7 @@
     <title></title>
     <link rel="stylesheet" id="pagestyle" href="styles/style.css">
 </head>
+<main class="wraper">
 <body onload="langChange(); mode()">
 <?php include_once 'navbar.php' ?>
 <section>
@@ -17,5 +18,6 @@
 </section>
 
 <?php include_once 'footer.php' ?>
+</main>
 </body>
 </html>
