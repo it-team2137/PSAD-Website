@@ -1,15 +1,52 @@
 :root{
-    --first-color:black;
-    --second-color:white;
+    --first-color:rgb(15, 69, 88);
+    --second-color:rgb(255, 255, 255);
+    --test-color: rgb(119, 66, 22);
+    --nav-color:rgba(15, 69, 88, 0.808);
+}
+main{
+    overflow-x: hidden;
+    position:relative;
+}
+#light-button:hover {
+    opacity:1;
+}
+#light-button {
+    background-image:url("/./images/buttons/lightmode.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    display: block;
+    left:97.5%;
+    margin-top: 5vw;
+    height:2.5vw;
+    aspect-ratio: 1;
+    z-index: 5;
+    opacity:0.5;
+}
+@font-face {
+    font-family: Montserrat;
+    src:url("/fonts/Montserrat/Montserrat-Regular.ttf")
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src:url("/fonts/Montserrat/Montserrat-Bold.ttf")
 }
 body{
     background-color: var(--first-color);
+    transition: background-color 0.6s;
+    margin: 0;
 }
-nav{
+#navdiv{
+    margin-top:1.6vh;
     text-align: center;
+    justify-content: center;
     width: 100%;
-    height: 50px;
-    z-index: 5;
+    height: fit-content;
+    z-index: 4;
+    position: sticky;
+    top: 0;
+    display:flex;
 }
 #navbar{
     list-style: none;
@@ -18,13 +55,15 @@ nav{
     flex-wrap: nowrap;
     display: flex;
     justify-content: center;
-    padding-bottom: 3vh;
+    padding:0;
+    margin:0;
+    transition: opacity 0.3s;
 }
 .m-item{
     float: left;
     padding: 4vh;
     border-left: 2px solid var(--second-color);
-    background-color: var(--first-color);
+    background-color: var(--nav-color);
     display:block;
     font-family: tahoma;
     font-size: 1.3rem;
@@ -52,10 +91,10 @@ a:link{
     position: fixed;
     display: block;
     left:97.5%;
-    margin-top:9.4vw;
+    margin-top: 11vw;
     height:2.5vw;
     aspect-ratio: 1;
-    z-index: 4;
+    z-index: 5;
     opacity:0.5;
 }
 #en {
@@ -65,10 +104,10 @@ a:link{
     position: fixed;
     display: block;
     left:97.5%;
-    margin-top: 6.5vw;
+    margin-top: 8vw;
     height:2.5vw;
     aspect-ratio: 1;
-    z-index: 4;
+    z-index: 5;
     opacity:0.5;
 }
 #gr:hover {
@@ -77,26 +116,14 @@ a:link{
 #en:hover {
     opacity:1;
 }
-#light-button:hover {
-    opacity:1;
-}
-#light-button {
-    background-image:url("/./images/buttons/lightmode.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: fixed;
-    display: block;
-    left:97.5%;
-    margin-top: 3.6vw;
-    height:2.5vw;
-    aspect-ratio: 1;
-    z-index: 4;
-    opacity:0.5;
-}
 body {
     max-width: 100%;
     overflow-x: hidden;
   }
+.box-galeria{
+ height: 80vh;
+ margin-top:3vh
+}
 .galeria{
     width: 25vw;
     aspect-ratio: 1;
@@ -172,7 +199,7 @@ body {
 .text{
     font-size: 14pt;
     padding: 1vw;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Montserrat,Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     text-justify:auto;
     width: 16vw;
@@ -191,4 +218,10 @@ section:hover{
 }
 body:hover{
     transition: background-color 0.6s;
+}
+.flex{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 100%;
 }

@@ -18,6 +18,8 @@
 </head>
 <body onload="langChange(); mode()">
 <?php include_once 'navbar.php' ?>
+<main class="wraper">
+
 
 <section>
     <div class="text-box" id="middle">
@@ -57,5 +59,6 @@ There are classes for elementary, high school students and all selected Lyceum s
     
 </section>
 <?php include_once 'footer.php' ?>
+</main>
 </body>
 </html>

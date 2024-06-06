@@ -8,7 +8,8 @@
 </head>
 <body onload="langChange(); mode()">
 <?php include_once 'navbar.php' ?>
-<section class="box-galeria navfix">
+<main class="wraper">
+<section class="box-galeria">
     <div class="galeria"><img src="images\gallery\gallery1.jpg" alt="" width="100%" height="100%"></div>
     <div class="galeria"><img src="images\gallery\gallery2.jpg" alt="" width="100%" height="100%"></div>
     <div class="galeria"><img src="images\gallery\gallery3.jpg" alt="" width="100%" height="100%"></div>
@@ -16,6 +17,6 @@
     <div class="galeria"><img src="images\gallery\gallery5.jpg" alt="" width="100%" height="100%"></div>
 </section>
 <?php include_once 'footer.php' ?>
-</script>
+</main>
 </body>
 </html>

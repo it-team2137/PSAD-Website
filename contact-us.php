@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" id="pagestyle" href="styles/style.css">
+    <style>
+        main{
+            display: flex;
+        }
+    </style>
 </head>
-<body onload="langChange(); mode()"s>
+<body onload="langChange(); mode()">
 <?php include_once 'navbar.php' ?>
+<main class="wraper">
+
+
 <section id="flex-contact">
     <div id="main-contact" class="text"><div class="text-up">CONTACT US</div>
         <div id="box2">
@@ -31,5 +39,6 @@
 </section>
 
 <?php include_once 'footer.php' ?>
+</main>
 </body>
 </html>
