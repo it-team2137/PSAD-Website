@@ -2,6 +2,7 @@
     --first-color:rgb(17, 145, 196);
     --second-color:black;
     --test-color: rgb(238, 127, 37);
+    --nav-color:rgba(17, 145, 196, 0.808);
 }
 main{
     overflow-x: hidden;
@@ -62,7 +63,7 @@ body{
     float: left;
     padding: 4vh;
     border-left: 2px solid var(--second-color);
-    background-color: var(--first-color);
+    background-color: var(--nav-color);
     display:block;
     font-family: tahoma;
     font-size: 1.3rem;
