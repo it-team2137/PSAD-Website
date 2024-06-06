@@ -27,7 +27,7 @@
 <div class="footer">
   <div class="footer-item"> <img class="footer-img" src="\images\icons\fb.svg">     <a href="https://www.facebook.com/PaphosArtStudios/">Facebook</a></div>
   <div class="footer-item"> <img class="footer-img" src="\images\icons\ig.svg"> <a href="https://www.instagram.com/psad_artschool/">Instagram</a></div>
-  <div class="footer-item">Website by: ITteam2137</div>
+  <div class="footer-item">Website by: ITteam2137<br>ALL IMAGES AND SITE CONTENT COPYRIGHT © 2024 PSAD - ALL RIGHTS RESERVED</div>
 </div>
 
 
