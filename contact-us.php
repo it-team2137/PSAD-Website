@@ -8,12 +8,26 @@
 </head>
 <body onload="langChange(); mode()"s>
 <?php include_once 'navbar.php' ?>
-<section>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+<section id="flex-contact">
+    <div id="main-contact" class="text"><div class="text-up">CONTACT US</div>
+        <div id="box2">
+            <div id="msg-contact">
+                <div class="text-up">Message us</div>
+                <div>Topic</div>
+                <div>Message</div>
+                <div>Signature</div>
+
+            </div>
+            <div id="social-contact">
+                <div class="text-up">Socials</div>
+                <div id="social">Mikalis Theodosio</div>
+                <div id="social">What's Up!</div>
+                <div id="social">Instagram</div>
+            </div>
+        </div>
+    </div>
+
+    </div>
 </section>
 
 <?php include_once 'footer.php' ?>
