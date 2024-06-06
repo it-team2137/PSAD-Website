@@ -258,6 +258,7 @@ body:hover{
     font-size: 2rem;
     border-color: red;
     border-style: dotted;
+    align-items: flex-start;
 }
 #social-contact{
     display: flex;
@@ -274,5 +275,11 @@ body:hover{
     align-self: center;
 }
 #social{
-    
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    padding-bottom:3vh ;
+}
+.icons{
+    padding-right: 3vh;
 }
