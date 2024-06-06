@@ -1,15 +1,29 @@
 :root{
-    --first-color:black;
-    --second-color:white;
+    --first-color:rgb(0, 0, 0);
+    --second-color:rgb(255, 255, 255);
+    --test-color: rgb(238, 127, 37);
+}
+@font-face {
+    font-family: Montserrat;
+    src:url("/fonts/Montserrat/Montserrat-Regular.ttf")
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src:url("/fonts/Montserrat/Montserrat-Bold.ttf")
 }
 body{
     background-color: var(--first-color);
+    transition: background-color 0.6s;
+    margin: 0;
 }
-nav{
+#navdiv{
+    margin-top:1.6vh;
     text-align: center;
     width: 100%;
-    height: 50px;
-    z-index: 5;
+    height: fit-content;
+    z-index: 4;
+    position: sticky;
+    top: 0;
 }
 #navbar{
     list-style: none;
@@ -18,7 +32,15 @@ nav{
     flex-wrap: nowrap;
     display: flex;
     justify-content: center;
-    padding-bottom: 3vh;
+    padding:0;
+    margin:0;
+    transition: opacity 0.3s;
+}
+.navfix {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
 }
 .m-item{
     float: left;
@@ -52,10 +74,10 @@ a:link{
     position: fixed;
     display: block;
     left:97.5%;
-    margin-top:9.4vw;
+    margin-top: 11vw;
     height:2.5vw;
     aspect-ratio: 1;
-    z-index: 4;
+    z-index: 5;
     opacity:0.5;
 }
 #en {
@@ -65,10 +87,10 @@ a:link{
     position: fixed;
     display: block;
     left:97.5%;
-    margin-top: 6.5vw;
+    margin-top: 8vw;
     height:2.5vw;
     aspect-ratio: 1;
-    z-index: 4;
+    z-index: 5;
     opacity:0.5;
 }
 #gr:hover {
@@ -87,16 +109,20 @@ a:link{
     position: fixed;
     display: block;
     left:97.5%;
-    margin-top: 3.6vw;
+    margin-top: 5vw;
     height:2.5vw;
     aspect-ratio: 1;
-    z-index: 4;
+    z-index: 5;
     opacity:0.5;
 }
 body {
     max-width: 100%;
     overflow-x: hidden;
   }
+.box-galeria{
+ height: 80vh;
+ margin-top:3vh
+}
 .galeria{
     width: 25vw;
     aspect-ratio: 1;
@@ -172,7 +198,7 @@ body {
 .text{
     font-size: 14pt;
     padding: 1vw;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Montserrat,Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     text-justify:auto;
     width: 16vw;
@@ -192,3 +218,4 @@ section:hover{
 body:hover{
     transition: background-color 0.6s;
 }
+

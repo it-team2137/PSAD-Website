@@ -1,7 +1,7 @@
 
 <style>
   .footer {
-  background-color: lightsalmon;
+  background-color: var(--test-color);
   color: black;
   display:flex;
   justify-content: space-evenly;

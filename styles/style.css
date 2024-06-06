@@ -1,6 +1,7 @@
 :root{
-    --first-color:white;
+    --first-color:rgb(17, 145, 196);
     --second-color:black;
+    --test-color: rgb(238, 127, 37);
 }
 @font-face {
     font-family: Montserrat;
