@@ -44,8 +44,8 @@ article > .text {
     </style>
 </head>
 <body onload="langChange(); mode()">
-<main class="wraper">
 <?php include_once 'navbar.php' ?>
+<main class="wraper">
 <div class="erasmus flex">
 
     <header class="text">

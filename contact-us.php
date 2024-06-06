@@ -11,9 +11,10 @@
         }
     </style>
 </head>
-<body onload="langChange(); mode()"s>
-<main class="wraper">
+<body onload="langChange(); mode()">
 <?php include_once 'navbar.php' ?>
+<main class="wraper">
+
 
 
 <?php include_once 'footer.php' ?>

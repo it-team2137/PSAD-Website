@@ -18,6 +18,7 @@
   .footer-item {
   align-items: center;
   display:flex;
+  color:var(--second-color)
   }
   .footer-img{
     height: 4vh;

@@ -9,8 +9,8 @@
     
 </head>
 <body onload="langChange(); mode()">
-<main class="wraper">
 <?php include_once 'navbar.php' ?>
+<main class="wraper">
 <section>
   <div>
     <ul>

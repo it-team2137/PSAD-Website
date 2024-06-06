@@ -6,9 +6,9 @@
     <title></title>
     <link rel="stylesheet" id="pagestyle" href="styles/style.css">
 </head>
-<main class="wraper">
 <body onload="langChange(); mode()">
 <?php include_once 'navbar.php' ?>
+<main class="wraper">
 <section>
     <div></div>
     <div></div>

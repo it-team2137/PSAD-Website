@@ -7,8 +7,8 @@
     <link rel="stylesheet" id="pagestyle" href="styles/style.css">
 </head>
 <body onload="langChange(); mode()">
-<main class="wraper">
 <?php include_once 'navbar.php' ?>
+<main class="wraper">
 <section>
     <div></div>
     <div></div>

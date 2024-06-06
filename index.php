@@ -7,8 +7,8 @@
     <link rel="stylesheet" id="pagestyle" href="styles/style.css">
 </head>
 <body onload="langChange(); mode()">
-<main class="wraper">
 <?php include_once 'navbar.php' ?>
+<main class="wraper">
 <section class="box-galeria">
     <div class="galeria"><img src="images\gallery\gallery1.jpg" alt="" width="100%" height="100%"></div>
     <div class="galeria"><img src="images\gallery\gallery2.jpg" alt="" width="100%" height="100%"></div>

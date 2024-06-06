@@ -1,7 +1,12 @@
 :root{
-    --first-color:rgb(0, 0, 0);
+    --first-color:rgb(15, 69, 88);
     --second-color:rgb(255, 255, 255);
-    --test-color: rgb(238, 127, 37);
+    --test-color: rgb(119, 66, 22);
+    --nav-color:rgba(15, 69, 88, 0.308);
+}
+main{
+    overflow-x: hidden;
+    position:relative;
 }
 #light-button:hover {
     opacity:1;
