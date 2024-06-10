@@ -101,6 +101,10 @@ form .form-row .textarea{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  height: 6vh;
+  width: 20vh;
+  float: right;
+  margin-right: 2vh;
 }
 
 #button-submit:hover {
