@@ -16,11 +16,11 @@
     <div id="main-contact" class="text"><div class="text-up">CONTACT US</div>
         <div id="box2">
             <div id="msg-contact">
-                <div class="text-up">Message us</div>
+                <div class="text-down">Message us</div>
                 <?php include_once 'form.php'?>
             </div>
             <div id="social-contact">
-                <div class="text-up">Socials</div>
+                <div class="text-down">Socials</div>
                 <div id="social"><img class="icons" src="\images\gallery\gallery5.jpg" alt="img prof" height="50vh">Michalis Theodosiou</div>
                 <div id="social"><img class="icons" src="\images\icons\phone.svg" alt="img prof" height="50vh">What's Up!&nbsp<button id="revbutton" style="display:block;" onclick="reveal()">Reveal</button><div id="rev" style="display:none;">&nbsp+357 99 268300</div></div>
                 <div id="social"><img class="icons" src="\images\icons\ig.svg" alt="img prof" height="50vh">Instagram</div>

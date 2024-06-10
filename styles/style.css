@@ -231,21 +231,19 @@ body:hover{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    border-style: dotted;
 }
 #main-contact{
     align-self: center;
     display: flex;
     width: 80%;
-    border-style: dotted;
     flex-direction: column;
 }
 #box2{
     display: flex;
     flex-flow: row;
-    border-style: dashed;
     width: 100%;
     height: fit-content;
+    
 }
 #msg-contact{
     display: flex;
@@ -253,9 +251,8 @@ body:hover{
     width: 55%;
     height: fit-content;
     font-size: 2rem;
-    border-color: red;
-    border-style: dotted;
     align-items: flex-start;
+    margin-right: 2vh;
 }
 #social-contact{
     display: flex;
@@ -263,11 +260,13 @@ body:hover{
     width: 45%;
     height: 100%;
     font-size: 1.8rem;
-    border-style: dotted;
     align-items: flex-start;
-    border-color: blue;
 }
 .text-up{
+    font-size: 4rem;
+    align-self: center;
+}
+.text-down{
     font-size: 3rem;
     align-self: center;
 }

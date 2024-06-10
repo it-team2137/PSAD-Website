@@ -23,7 +23,7 @@
          <div class="input-data textarea">
             <textarea rows="8" cols="80" required></textarea>
             <br>
-            <div class="underline"></div>
+            <div class="underline" id="underline-last"></div>
             <label class="label" for="">Write your message</label>
 
             <br>
