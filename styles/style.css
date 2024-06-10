@@ -1,8 +1,8 @@
 :root{
-    --first-color:rgb(17, 145, 196);
-    --second-color:black;
-    --test-color: rgb(238, 127, 37);
-    --nav-color:rgba(17, 145, 196, 0.808);
+    --first-color:rgb(172, 204, 238);
+    --second-color:rgb(42, 71, 63);
+    --test-color: rgb(172, 204, 238);
+    --nav-color:rgb(172, 204, 238);
 }
 main{
     overflow-x: hidden;
@@ -121,8 +121,10 @@ body {
     overflow-x: hidden;
   }
 .box-galeria{
- height: 80vh;
- margin-top:3vh
+    height: 80vh;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
 }
 .galeria{
     width: 25vw;
@@ -274,12 +276,8 @@ body:hover{
     display: flex;
     justify-content: baseline;
     align-items: center;
-    padding-bottom:3vh;
+    padding-bottom:3vh ;
 }
 .icons{
     padding-right: 3vh;
-}
-.map{
-    width: 100%;
-    height: 40vh;
 }
