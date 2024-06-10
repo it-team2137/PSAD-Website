@@ -2,7 +2,7 @@
     --first-color:rgb(172, 204, 238);
     --second-color:rgb(42, 71, 63);
     --test-color: rgb(172, 204, 238);
-    --nav-color:rgb(172, 204, 238);
+    --nav-color:rgba(172, 204, 238, 0.9);
 }
 main{
     overflow-x: hidden;
@@ -32,6 +32,9 @@ main{
     font-family: Montserrat-Bold;
     src:url("/fonts/Montserrat/Montserrat-Bold.ttf")
 }
+/* ######################################## */
+/* DO NOT COPY THIS PART TO DARK CSS ^^^^^^ */
+/* ######################################## */
 body{
     background-color: var(--first-color);
     transition: background-color 0.6s;
@@ -47,6 +50,7 @@ body{
     position: sticky;
     top: 0;
     display:flex;
+    transition: transform 0.4s;
 }
 #navbar{
     list-style: none;
@@ -57,7 +61,7 @@ body{
     justify-content: center;
     padding:0;
     margin:0;
-    transition: opacity 0.3s;
+    transition: 0.6s;
 }
 .m-item{
     float: left;

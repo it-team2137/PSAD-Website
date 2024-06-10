@@ -10,6 +10,7 @@
   bottom:0;
   width:100%;
   margin-top: 1vh;
+  transition: 0.6s;
   }
   .footer div {
   width:fit-content;
@@ -24,6 +25,9 @@
     height: 4vh;
     padding-right: 1vh;
   }
+  .footr:hover{
+    opacity: 1;
+  } 
 </style>
 <div class="footer">
   <div class="footer-item"> <img class="footer-img" src="\images\icons\fb.svg">     <a href="https://www.facebook.com/PaphosArtStudios/">Facebook</a></div>

@@ -20,11 +20,9 @@ let prevScrollPos = window.pageYOffset;
 window.addEventListener('scroll', function() {
   const currentScrollPos = window.pageYOffset;
     if (prevScrollPos > currentScrollPos) {
-    document.getElementById("navbar").style.opacity = "1";
-    document.getElementById("navdiv").style.top = "0px";
+    document.getElementById("navdiv").style.transform = "translateY(0px)";
     } else {
-    document.getElementById("navbar").style.opacity = "0";
-    document.getElementById("navdiv").style.top = "-200px";
+    document.getElementById("navdiv").style.transform = "translateY(-200px)";
   }
   prevScrollPos = currentScrollPos;
 });
