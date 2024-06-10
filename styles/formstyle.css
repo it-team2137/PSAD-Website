@@ -1,0 +1,109 @@
+form{
+    font-family: Montserrat;
+}
+.container form{
+    padding:30px 0 0 0
+}
+.container form .form-row{
+    display:flex;
+    margin:32px 0
+}
+form .form-row .input-data{
+    width:100%;
+    height:40px;
+    margin:0 20px;
+    position:relative
+}
+form .form-row .textarea{
+    height:70px
+}
+.input-data input,.textarea textarea{
+    display:block;
+    width:100%;
+    height:100%;
+    border:none;
+    font-size:17px;
+    border-bottom:2px solid rgba(0,0,0,.12)
+}
+.input-data input:focus~label,.input-data input:valid~label,.textarea textarea:focus~label,.textarea textarea:valid~label{
+    transform:translateY(-16px);
+    font-size:12px;
+    color:#3498db
+}
+.textarea textarea{
+    resize:none;
+    padding-top:10px
+}
+.input-data label{
+    position:absolute;
+    pointer-events:none;
+    bottom:10px;
+    font-size:16px;
+    transition:all .3s ease
+}
+.textarea label{
+    width:100%;
+    bottom:40px;
+    background:#fff
+}
+.input-data .underline{
+    position:absolute;
+    bottom:0;
+    height:2px;
+    width:100%
+}
+.input-data .underline:before{
+    position:absolute;
+    content:"";
+    height:2px;
+    width:100%;
+    background:#3498db;
+    transform:scaleX(0);
+    transform-origin:center;
+    transition:transform .3s ease
+}
+.input-data input:focus~.underline:before,.input-data input:valid~.underline:before,.textarea textarea:focus~.underline:before,.textarea textarea:valid~.underline:before{
+    transform:scale(1)
+}
+.label{
+    padding-left: 0.5vh;
+
+}
+@media (max-width:700px){
+    .container .text{
+        font-size:30px
+    }
+    .container form{
+        padding:10px 0 0 0
+    }
+    .container form .form-row{
+        display:block
+    }
+    form .form-row .input-data{
+        margin:35px 0!important
+    }
+
+}
+#button-submit {
+  background-color: rgb(22, 174, 234);
+  border-radius: 100px;
+  box-shadow: rgba(13, 92, 123, 0.2) 0 -25px 18px -14px inset,rgba(13, 92, 123, .15) 0 1px 2px,rgba(13, 92, 123, .15) 0 2px 4px,rgba(13, 92, 123, .15) 0 4px 8px,rgba(13, 92, 123, .15) 0 8px 16px,rgba(13, 92, 123, .15) 0 16px 32px;
+  color: rgb(12, 112, 151);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Montserrat;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#button-submit:hover {
+  box-shadow: rgba(13, 92, 123,.35) 0 -25px 18px -14px inset,rgba(13, 92, 123,.25) 0 1px 2px,rgba(13, 92, 123,.25) 0 2px 4px,rgba(13, 92, 123,.25) 0 4px 8px,rgba(13, 92, 123,.25) 0 8px 16px,rgba(13, 92, 123,.25) 0 16px 32px;
+  transform: scale(1.05);
+}

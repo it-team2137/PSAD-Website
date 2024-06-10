@@ -75,6 +75,21 @@ function mode() {
 function swapStyleSheet(sheet) {
     document.getElementById("pagestyle").setAttribute("href", sheet);  
 }
+function reveal() {
+  var x = document.getElementById("rev");
+  var y = document.getElementById("revbutton")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  if (y.style.display === "block"){
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+  }
+    
+}
 
 </script>
 <script src="./dist/dom-i18n.js"></script>

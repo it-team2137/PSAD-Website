@@ -237,9 +237,6 @@ body:hover{
     align-self: center;
     display: flex;
     width: 80%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     border-style: dotted;
     flex-direction: column;
 }
@@ -265,7 +262,7 @@ body:hover{
     flex-direction: column;
     width: 45%;
     height: 100%;
-    font-size: 2rem;
+    font-size: 1.8rem;
     border-style: dotted;
     align-items: flex-start;
     border-color: blue;
@@ -278,8 +275,12 @@ body:hover{
     display: flex;
     justify-content: baseline;
     align-items: center;
-    padding-bottom:3vh ;
+    padding-bottom:3vh;
 }
 .icons{
     padding-right: 3vh;
+}
+.map{
+    width: 100%;
+    height: 40vh;
 }
