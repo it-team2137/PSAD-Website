@@ -1,8 +1,8 @@
 :root{
-    --first-color:rgb(15, 69, 88);
+    --first-color:rgb(42, 71, 63);
     --second-color:rgb(255, 255, 255);
-    --test-color: rgb(119, 66, 22);
-    --nav-color:rgba(15, 69, 88, 0.808);
+    --test-color: rgb(42, 71, 63);
+    --nav-color:rgba(42, 71, 63);
 }
 main{
     overflow-x: hidden;
