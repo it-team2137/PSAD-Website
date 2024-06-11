@@ -3,6 +3,7 @@
     --second-color:rgb(255, 255, 255);
     --test-color: rgb(42, 71, 63);
     --nav-color:rgba(42, 71, 63, 0.9);
+    --line-color: rgb(255, 255, 255);
 }
 main{
     overflow-x: hidden;
