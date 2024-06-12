@@ -9,6 +9,7 @@
     <style>
         #about  {
         font-size: 1.4rem;
+        font-weight: bold;
         width:32vw;
         padding: none;
         text-align: center;
@@ -22,6 +23,7 @@
             justify-content:center;
         }
         .box {
+            margin-top: 18vh;
             display:flex;
             width: 50%;
             position:relative;
@@ -30,14 +32,13 @@
         }
         img {
             width:100%;
-            height:50%;
             display:block;
         }
         #content {
             position: absolute;
             display:flex;
             width:100%;
-            height:50%;
+            height:80%;
             left:0;
             background:rgba(0,0,0,0.75);
             justify-content:center;
@@ -75,7 +76,7 @@ There are classes for elementary, high school students and all selected Lyceum s
 Στον χώρο λειτουργούν τμήματα για παιδιά δημοτικού, γυμνασίου και όλων των επιλεγόμενων μαθημάτων Λυκείου. Οι ενήλικες είναι πάντα ευπρόσδεκτοι για ατομικά ή ομαδικά τμήματα  
         </div>
         <aside class="box">
-            <img src="/images/about-us/build.jpg">
+            <img src="/images/about-us/studio.jpg">
             <div data-translatable class="text" id="content" >
                 Arts Center with art classes for children, teenagers and adults. Lessons in perspective and free drawing for high school students. Studio spaces and workshops for independent artists and to create visual portfolios.
                 // Κέντρο Τεχνών με τμήματα διδασκαλίας τέχνης για παιδιά, εφήβους και ενήλικες. Μαθήματα προοπτικού και ελεύθερου σχεδίου για μαθητές λυκείου. Χώροι στούντιο και εργαστήρια για ανεξάρτητους καλλιτέχνες και για δημιουργία εικαστικών πορτφόλιων.  
