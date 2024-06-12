@@ -127,7 +127,7 @@ body {
     overflow-x: hidden;
   }
 .box-galeria{
-    height: 80vh;
+    height: 65vh;
     margin-top: 3vh;
     display: flex;
     align-items: center;
@@ -294,4 +294,24 @@ body:hover{
 }
 .c-w-item{
     width: 64vh;
+}
+.row{
+   flex-direction: row;
+}
+.padding-c-w{
+    padding: 3vh;
+    width: 50%;
+}
+#banner-box{
+    height:25vh;
+    width: 100%;
+    top:0;
+    left:0;
+    display: block;
+    position:absolute;
+}
+#banner{
+    height: 25vh;
+    position: absolute;
+    top: 0;
 }
