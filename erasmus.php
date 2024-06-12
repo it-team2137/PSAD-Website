@@ -31,12 +31,11 @@ article {
     justify-content: space-evenly;
 }
 
-img {
+.img {
     height:25%;
     width:25%;
     object-fit:contain;
-    align-self:flex-end;
-    
+    align-self:flex-end; 
 }
 article > .text {
     text-align: center;
@@ -60,11 +59,11 @@ article > .text {
             and artists to immerse themselves in our vibrant art community through our Erasmus exchange program.
             By participating in this program, individuals have the chance to engage in our dynamic activities and projects, all while working in our newly renovated studios for placements of up to two months.
         </div>
-        <img src="images\erasmus\art-dog.jpg">
+        <img class="img" src="images\erasmus\art-dog.jpg">
     </article>
     
     <article>
-        <img src="images\erasmus\orchids.jpg">
+        <img class="img" src="images\erasmus\orchids.jpg">
         <div class="text">
             Our center operates in various areas of expertise, including fine arts, painting, sculpture,
             illustration, animation, graphic design, IT, photography, videography, mural art, and more.
@@ -80,10 +79,10 @@ article > .text {
             museums, and galleries. These excursions aim to familiarize participants with the cultural and historical significance of the region,
             enriching their overall experience.
         </div>
-        <img src="images\erasmus\city.jpg">
+        <img class="img" src="images\erasmus\city.jpg">
     </article>
     <article>
-        <img src="images\erasmus\oranges.jpg">
+        <img class="img" src="images\erasmus\oranges.jpg">
         <div class="text">
             To ensure a comfortable and stress-free experience,
             our team and associates handle all aspects of transportation, accommodation,
@@ -99,7 +98,7 @@ article > .text {
             cultural exploration, and meaningful connections. Apply now for an unforgettable experience in the heart
             of Cyprus’s thriving art community!
         </div>
-        <img src="images\erasmus\building.jpg">
+        <img class="img" src="images\erasmus\building.jpg">
     </article>
 </div>
 

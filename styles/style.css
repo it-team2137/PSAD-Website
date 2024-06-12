@@ -19,7 +19,7 @@ main{
     position: fixed;
     display: block;
     left:97.5%;
-    margin-top: 5vw;
+    margin-top: 6vw;
     height:2.5vw;
     aspect-ratio: 1;
     z-index: 5;
@@ -41,9 +41,21 @@ body{
     transition: background-color 0.6s;
     margin: 0;
 }
+#logo{
+    width: 23vh;
+    z-index: 8;
+}
+#logo-box{
+    z-index: 8;
+    width: fit-content;
+    height: 25vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
 #navdiv{
-    margin-left: 14.6vh;
-    margin-top:1.6vh;
+    background-color: var(--first-color);
     text-align: center;
     justify-content: center;
     width: 100%;
@@ -52,7 +64,8 @@ body{
     position: sticky;
     top: 0;
     display:flex;
-    transition: transform 0.4s;
+    transition: transform 0.4s, background-color 0.6s;
+    border-bottom: solid 2px var(--second-color);
 }
 #navbar{
     list-style: none;
@@ -72,7 +85,7 @@ body{
     background-color: var(--nav-color);
     display:block;
     font-family: tahoma;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     transition: background-color 0.6s;
     white-space: nowrap;
 }
@@ -98,7 +111,7 @@ a:link{
     position: fixed;
     display: block;
     left:97.5%;
-    margin-top: 11vw;
+    margin-top: 12vw;
     height:2.5vw;
     aspect-ratio: 1;
     z-index: 5;
@@ -111,7 +124,7 @@ a:link{
     position: fixed;
     display: block;
     left:97.5%;
-    margin-top: 8vw;
+    margin-top: 9vw;
     height:2.5vw;
     aspect-ratio: 1;
     z-index: 5;
@@ -302,15 +315,4 @@ body:hover{
 .padding-c-w{
     padding: 3vh;
     width: 50%;
-}
-#logo{
-    width: 25vh;
-}
-#logo-box{
-    width: 100%;
-    height: 25vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-bottom: solid 2px rgb(42, 71, 63);
 }
