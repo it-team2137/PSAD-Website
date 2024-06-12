@@ -71,8 +71,10 @@ function langChange(){
     let lang = getCookie("language");
     if (lang == "gr") {
         i18n.changeLanguage('gr')
+        swapStyleSheetnav('styles/grnav.css')
     } else {
         i18n.changeLanguage('en')
+        swapStyleSheetnav('styles/ennav.css')
     }
 }
 function mode() {
@@ -86,6 +88,9 @@ function mode() {
 }
 function swapStyleSheet(sheet) {
     document.getElementById("pagestyle").setAttribute("href", sheet);  
+}
+function swapStyleSheetnav(sheet) {
+    document.getElementById("navstyle").setAttribute("href", sheet);  
 }
 function reveal() {
   var x = document.getElementById("rev");
