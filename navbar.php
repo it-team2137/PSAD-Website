@@ -2,13 +2,12 @@
 <a onclick="setCookie('language', 'en'); i18n.changeLanguage('en');" id="en"></a>
 <a onclick="setCookie('mode', 'dark'); mode()" id="dark-button"></a>
 <a onclick="setCookie('mode', 'light'); mode()" id="light-button"></a>
-<div id="banner-box">
-  <img src="images\gallery\banner.jpg" id="banner">
-  <img src="images\icons\psad-icon.svg" id="banner">
+<div id="logo-box">
+  <img src="images\icons\psad-icon.svg" id="logo">
 </div>
+
 <nav id="navdiv">
     <ul id="navbar">
-      
         <a href="index.php" class="m-link"><li id="no-border" class="m-item" data-translatable>HOME // ΑΡΧΙΚΉ</li></a>
         <a href="about-us.php" class="m-link"><li class="m-item" data-translatable>ABOUT US // ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</li></a>
         <a href="courses-work.php" class="m-link"><li class="m-item" data-translatable>COURSES-WORKSHOPS // ΜΑΘΗΜΑΤΑ-ΕΡΓΑΣΤΗΡΙΑ</li></a>
