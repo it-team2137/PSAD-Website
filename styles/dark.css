@@ -33,6 +33,9 @@ main{
     font-family: Montserrat-Bold;
     src:url("/fonts/Montserrat/Montserrat-Bold.ttf")
 }
+/* ######################################## */
+/* DO NOT COPY THIS PART TO DARK CSS ^^^^^^ */
+/* ######################################## */
 body{
     background-color: var(--first-color);
     transition: background-color 0.6s;
@@ -68,8 +71,9 @@ body{
     background-color: var(--nav-color);
     display:block;
     font-family: tahoma;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     transition: background-color 0.6s;
+    white-space: nowrap;
 }
 #no-border{
     border-left: none;
@@ -228,6 +232,7 @@ body:hover{
     display: flex;
     width: 100%;
     height: 100%;
+ 
 }#flex-contact{
     width: 100%;
     height: fit-content;
@@ -282,4 +287,18 @@ body:hover{
 }
 .icons{
     padding-right: 3vh;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.c-w-item{
+    width: 64vh;
+}
+.row{
+   flex-direction: row;
+}
+.padding-c-w{
+    padding: 3vh;
+    width: 50%;
 }

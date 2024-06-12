@@ -2,15 +2,16 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="417.784mm"
+   height="104.446mm"
+   viewBox="0 0 417.784 104.446"
    version="1.1"
    id="svg1"
    sodipodi:docname="psad-icon.svg"
-   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -23,48 +24,72 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="0.54660447"
-     inkscape:cx="838.81495"
-     inkscape:cy="515.91236"
-     inkscape:window-width="1600"
-     inkscape:window-height="831"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:zoom="0.96459612"
+     inkscape:cx="149.28528"
+     inkscape:cy="273.17133"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs1" />
+     id="defs1">
+    <linearGradient
+       id="linearGradient2"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#2a473f;stop-opacity:0.952941;"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-color:#2a473f;stop-opacity:0;"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="linearGradient3"
+       x1="51.293056"
+       y1="143.32359"
+       x2="364.63107"
+       y2="143.32359"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3333333,0,0,1,-17.097683,0)" />
+  </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-51.293056,-91.100594)">
     <rect
-       style="fill:#2a473f;fill-opacity:0.952941;stroke-width:0.725208"
+       style="fill:url(#linearGradient3);stroke:none;stroke-width:0.59213"
        id="rect1"
-       width="626.67603"
-       height="104.4462"
+       width="417.784"
+       height="104.446"
        x="51.293056"
        y="91.100594" />
     <text
        xml:space="preserve"
-       style="font-size:14.1111px;fill:#acccee;fill-opacity:1;stroke-width:0.447254;-inkscape-font-specification:'AnjaliOldLipi, Normal';font-family:AnjaliOldLipi;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:AnjaliOldLipi;-inkscape-font-specification:'AnjaliOldLipi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#acccee;fill-opacity:1;stroke-width:0.447254"
        x="60.363972"
        y="117.91372"
        id="text1"><tspan
          sodipodi:role="line"
          id="tspan1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:AnjaliOldLipi;-inkscape-font-specification:'AnjaliOldLipi, Normal';fill:#acccee;fill-opacity:1;stroke-width:0.447254;font-size:14.11111111px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:AnjaliOldLipi;-inkscape-font-specification:'AnjaliOldLipi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#acccee;fill-opacity:1;stroke-width:0.447254"
          x="60.363972"
          y="117.91372">Paphos</tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:AnjaliOldLipi;-inkscape-font-specification:'AnjaliOldLipi, Normal';fill:#acccee;fill-opacity:1;stroke-width:0.447254;font-size:14.11111111px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:AnjaliOldLipi;-inkscape-font-specification:'AnjaliOldLipi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#acccee;fill-opacity:1;stroke-width:0.447254"
          x="60.363972"
-         y="133.67857"
+         y="135.5526"
          id="tspan2">Studios of</tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:AnjaliOldLipi;-inkscape-font-specification:'AnjaliOldLipi, Normal';fill:#acccee;fill-opacity:1;stroke-width:0.447254;font-size:14.11111111px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:AnjaliOldLipi;-inkscape-font-specification:'AnjaliOldLipi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#acccee;fill-opacity:1;stroke-width:0.447254"
          x="60.363972"
-         y="149.44342"
+         y="153.19147"
          id="tspan3">Art &amp; Design</tspan></text>
   </g>
 </svg>

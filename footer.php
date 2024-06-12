@@ -16,6 +16,7 @@
     width: 100%;
     height: 0.2vw;
     background-color: var(--line-color);
+    margin-top: 5vh;
   }
   .footer div {
   width:fit-content;
