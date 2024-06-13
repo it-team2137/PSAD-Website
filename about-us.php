@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" id="pagestyle" href="styles/style.css">
-    <link rel="preload" href="/styles/dark.css" as="style">
+    <link rel="preload" href="styles/dark.css" as="style">
+    <link rel="stylesheet" id="navstyle" href="">
     <style>
         #about  {
         font-size: 1.4rem;

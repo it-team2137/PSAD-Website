@@ -70,11 +70,11 @@ function getCookie(cname) {
 function langChange(){
     let lang = getCookie("language");
     if (lang == "gr") {
-        i18n.changeLanguage('gr')
-        swapStyleSheetnav('styles/grnav.css')
+        i18n.changeLanguage('gr');
+        swapNavSheet("styles/grnav.css");
     } else {
-        i18n.changeLanguage('en')
-        swapStyleSheetnav('styles/ennav.css')
+        i18n.changeLanguage('en');
+        swapNavSheet("");
     }
 }
 function mode() {
@@ -89,7 +89,7 @@ function mode() {
 function swapStyleSheet(sheet) {
     document.getElementById("pagestyle").setAttribute("href", sheet);  
 }
-function swapStyleSheetnav(sheet) {
+function swapNavSheet(sheet) {
     document.getElementById("navstyle").setAttribute("href", sheet);  
 }
 function reveal() {
