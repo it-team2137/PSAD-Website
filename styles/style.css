@@ -27,11 +27,11 @@ main{
 }
 @font-face {
     font-family: Montserrat;
-    src:url("/fonts/Montserrat/Montserrat-Regular.otf")
+    src:url("/fonts/Montserrat/Montserrat-Regular-Edited.ttf")
 }
 @font-face {
     font-family: Montserrat-Bold;
-    src:url("/fonts/Montserrat/Montserrat-Bold.otf")
+    src:url("/fonts/Montserrat/Montserrat-Bold.ttf")
 }
 /* ######################################## */
 /* DO NOT COPY THIS PART TO DARK CSS ^^^^^^ */
