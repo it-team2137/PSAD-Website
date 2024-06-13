@@ -316,7 +316,35 @@ body:hover{
     padding: 3vh;
     width: 50%;
 }
-#event-box{
+.archive-item{
+    height:auto;
+    aspect-ratio: 1;
+}
+.img-box{
+    margin: 5vh;
+    height: 40vh;
+    width: 40vh;
+    border-style:ridge;
+}
+.img-box:hover{
+    scale: 1.2;
+    transition: scale 0.2s;
+}
+.archive{
+    width: 100%;
+    height: fit-content;
+    margin-top: 8vh;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    margin-top: 8vh;
+}#event-box{
     display: flex;
     width: 100%;
     flex-direction: column;
