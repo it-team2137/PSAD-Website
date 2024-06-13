@@ -9,7 +9,6 @@
     <style>
         #about  {
         font-size: 1.4rem;
-        font-weight: bold;
         width:32vw;
         padding: none;
         text-align: center;
@@ -21,13 +20,16 @@
             display:flex;
             flex-direction: row;
             justify-content:center;
+            align-items: center;
+            margin-top: 10vh;
         }
         .box {
-            margin-top: 18vh;
             display:flex;
             width: 50%;
             position:relative;
+            justify-self: center;
             align-items:center;
+            align-self: center;
             
         }
         img {
@@ -75,13 +77,13 @@
 There are classes for elementary, high school students and all selected Lyceum subjects. Adults are always welcome for individual or group classes. // Το εργαστήρι μας βρίσκεται μόλις έξω από το κέντρο της Πάφου στη Χλώρακα, σε ένα ευχάριστο και κατάλληλα διαμορφωμένο περιβάλλον για καλλιτεχνική δημιουργία και μάθηση.
 Στον χώρο λειτουργούν τμήματα για παιδιά δημοτικού, γυμνασίου και όλων των επιλεγόμενων μαθημάτων Λυκείου. Οι ενήλικες είναι πάντα ευπρόσδεκτοι για ατομικά ή ομαδικά τμήματα  
         </div>
-        <aside class="box">
+        <div class="box">
             <img src="/images/about-us/studio.jpg">
             <div data-translatable class="text" id="content" >
                 Arts Center with art classes for children, teenagers and adults. Lessons in perspective and free drawing for high school students. Studio spaces and workshops for independent artists and to create visual portfolios.
                 // Κέντρο Τεχνών με τμήματα διδασκαλίας τέχνης για παιδιά, εφήβους και ενήλικες. Μαθήματα προοπτικού και ελεύθερου σχεδίου για μαθητές λυκείου. Χώροι στούντιο και εργαστήρια για ανεξάρτητους καλλιτέχνες και για δημιουργία εικαστικών πορτφόλιων.  
             </div> 
-        </aside>
+        </div>
         
     
 </section>
