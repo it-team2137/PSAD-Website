@@ -316,3 +316,40 @@ body:hover{
     padding: 3vh;
     width: 50%;
 }
+#event-box{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.event{
+    position: relative;
+    width: 90vw;
+    height: 50vh;
+    margin-top: 20vh;
+}
+.ev-content{
+    padding: 0;
+    display: block;
+    width: 37.5vw;
+    height: 45vh;
+    float: left;
+    margin-right: 5vw;
+    font-size: 2vh;
+}
+.ev-content:nth-child(1){
+    margin-left: 5vw;
+}
+.ev-content > img{
+    height: 45vh;
+}
+.ev-content > p{
+    font-size: 3vh;
+}
+#event-des{
+    width: 80vw;
+}
+#event-des > p {
+    text-align: center;
+    font-size: 6vh;
+}

@@ -8,7 +8,6 @@
     <link rel="preload" href="/styles/dark.css" as="style">
     
 </head>
-<body onload="langChange(); mode()">
 <?php include_once 'navbar.php' ?>
 <main class="wraper">
 <section class="flex row" style="margin-top:6vh;">

@@ -43,7 +43,6 @@ article > .text {
 }
     </style>
 </head>
-<body onload="langChange(); mode()">
 <?php include_once 'navbar.php' ?>
 <main class="wraper">
 <div class="erasmus flex">

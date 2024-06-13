@@ -7,7 +7,6 @@
     <link rel="stylesheet" id="pagestyle" href="styles/style.css">
     <link rel="stylesheet" href="styles/formstyle.css">
 </head>
-<body onload="langChange(); mode();">
 <?php include_once 'navbar.php' ?>
 <main class="wraper">
 
